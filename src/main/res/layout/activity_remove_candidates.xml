@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20sp"
+    tools:context=".RemoveCandidates">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:text="Remove users"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/RemoveCandidateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the name"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/RemoveCandidateParty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Party"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/RemoveCandidates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Candidates"/>
+
+    <ListView
+        android:id="@+id/ShowCandidates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

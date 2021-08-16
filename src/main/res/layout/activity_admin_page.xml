@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20sp"
+    tools:context=".AdminPage">
+
+
+    <Button
+        android:id="@+id/AddVoters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Voters" />
+
+    <Button
+        android:id="@+id/RemoveVoters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Voters" />
+
+    <Button
+        android:id="@+id/addCandi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Candidates" />
+
+    <Button
+        android:id="@+id/RemoveCandi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Candidates" />
+
+    <Button
+        android:id="@+id/delVisited"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Visited"/>
+</LinearLayout>
